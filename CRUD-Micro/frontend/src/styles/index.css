@@ -1,0 +1,36 @@
+/* Reset & Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ecf0f5; /* light gray, matches AdminLTE main bg */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #0d6efd;
+}
+
+/* Utility classes for layout */
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}

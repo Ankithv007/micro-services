@@ -1,0 +1,27 @@
+/* Sidebar background with soft light blue gradient */
+.main-sidebar {
+    background: linear-gradient(135deg, #d0e7ff, #a2d2ff);
+    min-height: 100vh;
+  }
+  
+  /* Sidebar links color */
+  .main-sidebar .nav-link {
+    color: #1a237e !important; /* dark navy blue for good contrast */
+  }
+  
+  /* Sidebar links hover effect */
+  .main-sidebar .nav-link:hover {
+    background-color: #90caf9 !important; /* light blue hover */
+    color: white !important;
+  }
+  
+  /* Brand link text color */
+  .brand-link {
+    color: #0d47a1 !important; /* deep blue */
+  }
+  
+  /* User panel text color */
+  .user-panel .info a {
+    color: #1976d2 !important; /* medium blue */
+  }
+  
